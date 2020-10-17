@@ -1,7 +1,9 @@
 ## Operations
 
 **CI/CD**
+
 **Backups**
+
 **Upgrades**
 **Patching**
 **Performance & Tuning**
