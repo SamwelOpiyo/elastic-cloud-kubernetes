@@ -8,7 +8,11 @@ This repository is meant to demonstrate and provide a starter for hosting the EC
 
 **Backups**
 
+How are backups performed? What tools are supported?
+
 **Upgrades**
+
+Does the ECK operator support zero-downtime upgrades, canary deployments, etc..?
 
 **Patching**
 
@@ -18,10 +22,16 @@ This repository is meant to demonstrate and provide a starter for hosting the EC
 
 **Monitoring**
 
+What monitoring tools can be integrated?
+
 **Scalability**
+
+Auto-Scaling? Manual Scaling?
 
 **Availability**
 
+Load Balancer? Ingress? Availability Zones?
+
 **Security**
 
-**Certificate Mgmt**
+Certificate Mgmt, rotating expired certs, etc...
