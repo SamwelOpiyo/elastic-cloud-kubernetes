@@ -1,2 +1,0 @@
-eck
-elastic-cloud-K8s
