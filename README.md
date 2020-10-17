@@ -93,7 +93,7 @@ Load Balancer? Ingress? Availability Zones?
 Certificate Mgmt, rotating expired certs, etc...
 
 
-## Additional References
+## Additional Elastic Cloud References
 
   - [Home Page](https://www.elastic.co/elastic-cloud-kubernetes)
   - [Enterprise Edition](https://www.elastic.co/ece)
