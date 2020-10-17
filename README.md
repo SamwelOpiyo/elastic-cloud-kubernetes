@@ -17,9 +17,27 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
 
 ### Prerequisites
 
-Though TKG is a ubiquitous runtime for hosting Kubernetes on any platform, public cloud or on-premises, the validations outlined below were performed on **vSphere 6.7u3**.
+**vSphere 6.7u3**
 
-The version used in the preparation of this repository will be **ECK 1.2.1**. Refer to the [home page](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) for additional information. In order to ensure working functionality in this repository, the specific versions of the artifacts are hosted here.
+  - Though TKG is a ubiquitous runtime for hosting Kubernetes on any platform, public cloud or on-premises, the validations outlined below require this version of vSphere 6.7.
+  
+**ECK 1.2.1**
+
+  - This will be the version this repository has been tested with. To ensure consistency and working functionality, the artifacts for these versions can be found in artifacts folder.
+  
+  - Refer to the [Elastic Cloud on Kubernetes](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) home page for additional information.
+
+**TKG CLI**
+
+  - The Tanzu Kubernetes Grid CLI for creating, managing, and interacting with the cluster, particularly for retrieving the credentials.
+  
+  [Download](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-set-up-tkg.html) the TKG CLI.
+  
+**kubectl**
+
+  - The CLI necessary to deploy the ECK operator, Elasticsearch, Kibana, and other components and services.
+  
+  Download[here](https://kubernetes.io/docs/tasks/tools/install-kubectl/) the kubectl CLI.
 
 ## Operations
 
