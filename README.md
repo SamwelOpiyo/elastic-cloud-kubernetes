@@ -25,9 +25,8 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
 
   - This will be the version this repository has been tested with. To ensure consistency and working functionality, the artifacts for these versions can be found in the artifacts folder of this repository.
   
-  - [Download](https://www.elastic.co/downloads/elastic-cloud-kubernetes) the **Free** version.
-  - Refer to the [Editions](https://www.elastic.co/subscriptions/enterprise) page for more information on the **Free** and **Enterprise Edition**.
-  - Refer to the [Elastic Cloud on Kubernetes](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) home page.
+  - See additional references below for more links to ECK.
+  
 
 **TKG CLI 1.1.3** - [Download](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-set-up-tkg.html)
 
@@ -96,4 +95,8 @@ Certificate Mgmt, rotating expired certs, etc...
 
 ## Additional References
 
-  - [https://www.elastic.co/elastic-cloud-kubernetes](https://www.elastic.co/elastic-cloud-kubernetes)
+  - [Home Page](https://www.elastic.co/elastic-cloud-kubernetes)
+  - [Enterprise Edition](https://www.elastic.co/ece)
+  - [Subscriptions](https://www.elastic.co/subscriptions/enterprise)
+  - [Downloads](https://www.elastic.co/downloads/elastic-cloud-kubernetes)
+  - [Guide](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html)
