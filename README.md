@@ -1,7 +1,6 @@
 ## Elastic Cloud on Kubernetes (ECK)
 
 ### Introduction
-================
 
 This repository is meant to validate, demonstrate, and provide a starter for hosting the ECK operator on a VMware Tanzu Kubernetes Grid (TKG) cluster.
 
@@ -17,7 +16,6 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
   - Setting up hot-warm-cold architectures with availability zone awareness
 
 ### Prerequisites
-=================
 
 **vSphere 6.7u3**
 
@@ -39,7 +37,6 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
   - The CLI necessary to deploy the ECK operator, Elasticsearch, Kibana, and other components and services.
 
 ## Operations Use Cases
-=======================
 
 ### Use Case
 
@@ -93,3 +90,8 @@ Load Balancer? Ingress? Availability Zones?
 **Security**
 
 Certificate Mgmt, rotating expired certs, etc...
+
+
+## Additional References
+
+  - [https://www.elastic.co/elastic-cloud-kubernetes](https://www.elastic.co/elastic-cloud-kubernetes)
