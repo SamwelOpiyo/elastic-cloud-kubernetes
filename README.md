@@ -31,13 +31,9 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
 
   - The Tanzu Kubernetes Grid CLI for creating, managing, and interacting with the cluster, particularly for retrieving the credentials.
   
-  - [Download](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-set-up-tkg.html) the TKG CLI.
-  
 **kubectl** - [Download](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
   - The CLI necessary to deploy the ECK operator, Elasticsearch, Kibana, and other components and services.
-  
-  - [Download](https://kubernetes.io/docs/tasks/tools/install-kubectl/) the kubectl CLI.
 
 ## Operations
 
@@ -50,6 +46,7 @@ How are backups performed? What tools are supported?
 **Upgrades**
 
 Does the ECK operator support zero-downtime upgrades, canary deployments, etc..?
+What happens when I need to upgrade the TKG cluster itself?
 
 **Patching**
 
