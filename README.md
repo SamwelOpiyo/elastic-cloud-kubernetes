@@ -1,8 +1,14 @@
 ## Elastic Cloud on Kubernetes (ECK)
 
-This repository is meant to validate, demonstrate, and provide a starter for hosting the ECK operator on a VMware Tanzu Kubernetes Grid (TKG) cluster. Though TKG is a ubiquitous runtime for hosting Kubernetes on any platform, public cloud or on-premises, the validations outlined below were performed on vSphere 6.7u3.
+### Introduction
 
-The version of ECK used in the preparation of this repository was 1.2.1. Please refer to the [home page](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) for additional information.
+This repository is meant to validate, demonstrate, and provide a starter for hosting the ECK operator on a VMware Tanzu Kubernetes Grid (TKG) cluster. The ECK operator extends the basic Kubernetes orchestration capabilities to support the setup and management of **Elasticsearch**, **Kibana** and **APM Server** on Kubernetes.
+
+### Prerequisites
+
+Though TKG is a ubiquitous runtime for hosting Kubernetes on any platform, public cloud or on-premises, the validations outlined below were performed on **vSphere 6.7u3**.
+
+The version used in the preparation of this repository will be **ECK 1.2.1**. Refer to the [home page](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) for additional information. In order to ensure working functionality in this repository, the specific versions of the artifacts are hosted here.
 
 ## Operations
 
