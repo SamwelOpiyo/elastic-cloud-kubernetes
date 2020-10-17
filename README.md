@@ -1,7 +1,6 @@
 ## Elastic Cloud on Kubernetes (ECK)
 
 ### Introduction
-================
 
 This repository is meant to validate, demonstrate, and provide a starter for hosting the ECK operator on a VMware Tanzu Kubernetes Grid (TKG) cluster.
 
@@ -17,7 +16,6 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
   - Setting up hot-warm-cold architectures with availability zone awareness
 
 ### Prerequisites
-=================
 
 **vSphere 6.7u3**
 
@@ -25,9 +23,10 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
   
 **ECK 1.2.1**
 
-  - This will be the version this repository has been tested with. To ensure consistency and working functionality, the artifacts for these versions can be found in artifacts folder.
+  - This will be the version this repository has been tested with. To ensure consistency and working functionality, the artifacts for these versions can be found in the artifacts folder of this repository.
   
-  - Refer to the [Elastic Cloud on Kubernetes](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) home page for additional information.
+  - See additional references below for more links to ECK.
+  
 
 **TKG CLI 1.1.3** - [Download](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-set-up-tkg.html)
 
@@ -39,7 +38,6 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
   - The CLI necessary to deploy the ECK operator, Elasticsearch, Kibana, and other components and services.
 
 ## Operations Use Cases
-=======================
 
 ### Use Case
 
@@ -92,4 +90,13 @@ Load Balancer? Ingress? Availability Zones?
 
 **Security**
 
-Certificate Mgmt, rotating expired certs, etc...
+Certificate Mgmt, RBAC
+
+
+## Additional Elastic Cloud References
+
+  - [Home Page](https://www.elastic.co/elastic-cloud-kubernetes)
+  - [Enterprise Edition](https://www.elastic.co/ece)
+  - [Subscriptions](https://www.elastic.co/subscriptions/enterprise)
+  - [Downloads](https://www.elastic.co/downloads/elastic-cloud-kubernetes)
+  - [Guide](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html)
