@@ -27,9 +27,10 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
   
   - Refer to the [Elastic Cloud on Kubernetes](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) home page for additional information.
 
-**TKG CLI** - [Download](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-set-up-tkg.html)
+**TKG CLI 1.1.3** - [Download](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-set-up-tkg.html)
 
   - The Tanzu Kubernetes Grid CLI for creating, managing, and interacting with the cluster, particularly for retrieving the credentials.
+  - Packaged with Kubernetes version 1.18.2.
   
 **kubectl** - [Download](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
