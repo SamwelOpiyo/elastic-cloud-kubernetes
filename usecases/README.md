@@ -1,7 +1,5 @@
 ## Elastic Cloud on Kubernetes (ECK)
 
-### Operations Use Cases
-
 ### Use Case #1
 
   - **Description**
