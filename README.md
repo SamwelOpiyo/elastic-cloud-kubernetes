@@ -23,9 +23,11 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
   
 **ECK 1.2.1**
 
-  - This will be the version this repository has been tested with. To ensure consistency and working functionality, the artifacts for these versions can be found in artifacts folder.
+  - This will be the version this repository has been tested with. To ensure consistency and working functionality, the artifacts for these versions can be found in the artifacts folder of this repository.
   
-  - Refer to the [Elastic Cloud on Kubernetes](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) home page for additional information.
+  - [Download](https://www.elastic.co/downloads/elastic-cloud-kubernetes) the **Free** version.
+  - Refer to the [Editions](https://www.elastic.co/subscriptions/enterprise) page for more information on the **Free** and **Enterprise Edition**.
+  - Refer to the [Elastic Cloud on Kubernetes](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) home page.
 
 **TKG CLI 1.1.3** - [Download](https://docs.vmware.com/en/VMware-Tanzu-Kubernetes-Grid/1.1/vmware-tanzu-kubernetes-grid-11/GUID-install-tkg-set-up-tkg.html)
 
