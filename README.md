@@ -90,7 +90,7 @@ Load Balancer? Ingress? Availability Zones?
 
 **Security**
 
-Certificate Mgmt, rotating expired certs, etc...
+Certificate Mgmt, RBAC
 
 
 ## Additional Elastic Cloud References
