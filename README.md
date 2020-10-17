@@ -2,7 +2,18 @@
 
 ### Introduction
 
-This repository is meant to validate, demonstrate, and provide a starter for hosting the ECK operator on a VMware Tanzu Kubernetes Grid (TKG) cluster. The ECK operator extends the basic Kubernetes orchestration capabilities to support the setup and management of **Elasticsearch**, **Kibana** and **APM Server** on Kubernetes.
+This repository is meant to validate, demonstrate, and provide a starter for hosting the ECK operator on a VMware Tanzu Kubernetes Grid (TKG) cluster.
+
+The ECK operator extends the basic Kubernetes orchestration capabilities to support the setup and management of **Elasticsearch**, **Kibana** and **APM Server** on Kubernetes.
+
+With Elastic Cloud on Kubernetes you can streamline all those critical operations, such as:
+
+  - Managing and monitoring multiple clusters
+  - Scaling cluster capacity up and down
+  - Changing cluster configuration
+  - Scheduling backups
+  - Securing clusters with TLS certificates
+  - Setting up hot-warm-cold architectures with availability zone awareness
 
 ### Prerequisites
 
