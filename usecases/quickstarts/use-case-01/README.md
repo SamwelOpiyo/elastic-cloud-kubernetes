@@ -12,10 +12,12 @@ This use case is based on the [quickstart tutorials](https://www.elastic.co/guid
     - Kubernetes 1.17.9
     - ECK 1.2.1 operator
 
-Execute each of the following steps manually, or execute them all by running the [script](script.sh).
+Execute each of the following steps manually, or execute them all by running the [script](script1.sh).
     <pre>
     tkg create cluster use-case-01 --kubernetes-version=1.17.9 --plan=prod
     tkg get credentials use-case-01
+    
+    kubectl config use-context use-case-01-admin@use-case-01
     </pre>
     
     At this point, it is necessary to manually configure a default storage class and persistent volume for the operator to dynamically provision a volume for the elasticsearch pod. The one included in the custom folder is annotated with the **is-default-class** set to true and configured to use a **vSAN Default Storage Policy** defined in vSphere.
@@ -65,9 +67,10 @@ Execute each of the following steps manually, or execute them all by running the
 
 ## Cleanup
 
-Execute the following commands to delete all the resources, or to start over.
+Execute the following commands to delete all the resources, or execute them all by running the [script](script2.sh).
 
     <pre>
+    kubectl delete kibana quickstart
     kubectl delete elasticsearch quickstart
     kubectl delete pv elasticsearch-data
     kubectl delete sc default
