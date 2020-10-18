@@ -57,7 +57,7 @@ These use cases follow the [quickstart tutorials](https://www.elastic.co/guide/e
 	- TKG performed the rolling upgrade to the Kubernetes version.
 	- The Kibana pod was restarted before the Elasticsearch pod.
 	- The Elasticsearch pod restarted successfully.
-	- The Kibana pod started, but a readinessProbe continually returns Http status code 503 (see [use-case-01-log]()).
+	- The Kibana pod started, but a readinessProbe continually returns errors (see [use-case-log-01-1.txt]()).
 
 ## Cleanup
 
