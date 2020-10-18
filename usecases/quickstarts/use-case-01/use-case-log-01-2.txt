@@ -1,0 +1,15 @@
+LAST SEEN   TYPE      REASON                    OBJECT                                MESSAGE
+35m         Normal    Killing                   pod/quickstart-es-default-0           Stopping container elasticsearch
+37m         Warning   Unhealthy                 pod/quickstart-kb-5c57bf995b-mmq9t    Readiness probe failed: HTTP probe failed with statuscode: 503
+51m         Warning   Unexpected                elasticsearch/quickstart              Could not update cluster license: while getting current license level 503 Service Unavailable:
+51m         Warning   Unexpected                elasticsearch/quickstart              Could not update remote clusters in Elasticsearch settings
+34m         Warning   AssociationError          kibana/quickstart                     Failed to find referenced backend default/quickstart: Elasticsearch.elasticsearch.k8s.elastic.co "quickstart" not found
+35m         Warning   AssociationError          kibana/quickstart                     Association backend for elasticsearch is not configured
+35m         Normal    AssociationStatusChange   kibana/quickstart                     Association status changed from [Established] to [Pending]
+32m         Warning   AssociationError          kibana/quickstart                     Association backend for elasticsearch is not configured
+2m2s        Warning   AssociationError          kibana/quickstart                     Failed to find referenced backend default/quickstart: Elasticsearch.elasticsearch.k8s.elastic.co "quickstart" not found
+32m         Normal    AssociationStatusChange   kibana/quickstart                     Association status changed from [] to [Pending]
+37m         Warning   Unhealthy                 pod/quickstart1-kb-75d464d46f-mlchf   Readiness probe failed: HTTP probe failed with statuscode: 503
+35m         Warning   AssociationError          kibana/quickstart1                    Association backend for elasticsearch is not configured
+34m         Warning   AssociationError          kibana/quickstart1                    Failed to find referenced backend default/quickstart: Elasticsearch.elasticsearch.k8s.elastic.co "quickstart" not found
+35m         Normal    AssociationStatusChange   kibana/quickstart1                    Association status changed from [Established] to [Pending]
