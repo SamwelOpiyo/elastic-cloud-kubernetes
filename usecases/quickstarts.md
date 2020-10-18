@@ -1,6 +1,6 @@
 ## Quickstarts
 
-These use cases follow the [quickstart tutorials](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-quickstart.html).
+These use cases follow the [quickstart tutorials](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-quickstart.html) hosted by Elasticsearch.
 
 ### Use Case #1
 
@@ -27,6 +27,7 @@ These use cases follow the [quickstart tutorials](https://www.elastic.co/guide/e
     <pre>
     kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/all-in-one.yaml
     kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/elasticsearch.yaml
+    kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/kibana.yaml
     
     kubectl get elasticsearch
     </pre>
