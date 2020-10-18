@@ -37,6 +37,10 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
 
   - The CLI necessary to deploy the ECK operator, Elasticsearch, Kibana, and other components and services.
 
+**Storage Class**
+
+  - The ECK operator uses dynamically provisioned volumes.
+
 ## Operations Use Cases
 
 ### Use Case
