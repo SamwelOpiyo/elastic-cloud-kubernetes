@@ -33,15 +33,31 @@ These use cases follow the [quickstart tutorials](https://www.elastic.co/guide/e
     </pre>
     
   - **Action**
-    - Deploy first Elasticsearch pod
-    - Deploy first Kibana pod
+    - Deploy Elasticsearch pod, spec.nodeSets.count: 1
+    - Deploy Kibana pod, spec.count: 1
     - Upgrade cluster to Kubernetes 1.18.6
-    - Deploy second Elasticsearch pod
-    - Deploy second Kibaba pod
+    - Observe Elasticsearch pod
+    - Observe Kibaba pod
+    
+    <pre>
+    tkg upgrade cluster use-case-01 --kubernetes-version v1.18.6
+    </pre>
     
   - **Postcondition**
     - Existing pod deployments continue running without disruption.
 	- New pods are deployed with new Kubernetes version.
+	
+## Outcome
+
+	- FAIL
+
+## Observations
+
+	- This scenario was not setup with availability or failover in mind.
+	- TKG performed the rolling upgrade to the Kubernetes version.
+	- The Kibana pod was restarted before the Elasticsearch pod.
+	- The Elasticsearch pod restarted successfully.
+	- The Kibana pod started, but a readinessProbe continually returns Http status code 503 (see [use-case-01-log]()).
 
 ## Cleanup
 
