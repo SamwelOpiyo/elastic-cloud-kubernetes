@@ -1,6 +1,6 @@
 ## Quickstarts
 
-These use cases follow the [quickstart tutorials](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-quickstart.html) hosted by Elasticsearch.
+This use case is based on the [quickstart tutorials](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-quickstart.html) hosted by Elasticsearch.
 
 ### Use Case #1
 
@@ -11,7 +11,8 @@ These use cases follow the [quickstart tutorials](https://www.elastic.co/guide/e
     - TKG Production Cluster v1.1.3
     - Kubernetes 1.17.9
     - ECK 1.2.1 operator
-    
+
+Execute each of the following steps manually, or execute them all by running the [script](script.sh).
     <pre>
     tkg create cluster use-case-01 --kubernetes-version=1.17.9 --plan=prod
     tkg get credentials use-case-01
