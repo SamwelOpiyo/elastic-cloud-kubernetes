@@ -15,8 +15,7 @@
     tkg get credentials use-case-01
     </pre>
     
-    At this point, it is necessary to manually configure a storage class and persistent volume for the operator to dynamically provision a volume for the elasticsearch pod.
-    We can use the one included in the custom folder of this repository.
+    At this point, it is necessary to manually configure a default storage class and persistent volume for the operator to dynamically provision a volume for the elasticsearch pod. The one included in the custom folder is annotated with the **is-default-class** set to true and configured to use a **vSAN Default Storage Policy** defined in vSphere.
     
     <pre>
     kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/common/storage.yaml
@@ -26,6 +25,8 @@
     <pre>
     kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/all-in-one.yaml
     kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/elasticsearch.yaml
+    
+    kubectl get elasticsearch
     </pre>
     
   - **Action**
@@ -38,3 +39,14 @@
   - **Postcondition**
     - Existing pod deployments continue running without disruption.
 	- New pods are deployed with new Kubernetes version.
+
+## Cleanup
+
+Execute the following commands to delete all the resources, or to start over.
+
+    <pre>
+    kubectl delete elasticsearch quickstart
+    kubectl delete pv elasticsearch-data
+    kubectl delete sc default
+    kubectl delete ns elastic-system
+    </pre>
