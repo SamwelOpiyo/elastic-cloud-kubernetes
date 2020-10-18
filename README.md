@@ -43,59 +43,7 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
 
 ## Operations Use Cases
 
-### Use Case
-
-  - **Description**
-    - Ensure ECK operator works across Kubernetes version upgrades.
-
-  - **Precondition**
-    - TKG Production Cluster
-    - Kubernetes 1.16
-    - ECK 1.2.1 operator
-    
-  - **Action**
-    - Deploy first Elasticsearch pod
-    - Deploy first Kibana pod
-    - Upgrade cluster to Kubernetes 1.18
-    - Deploy second Elasticsearch pod
-    - Deploy second Kibaba pod
-    
-  - **Postcondition**
-    - All pod deployments continue to work as expected.
-
-**CI/CD**
-
-**Backups**
-
-How are backups performed? What tools are supported?
-
-**Upgrades**
-
-Does the ECK operator support zero-downtime upgrades, canary deployments, etc..?
-What happens when I need to upgrade the TKG cluster itself?
-
-**Patching**
-
-**Performance & Tuning**
-
-**Disaster Recovery**
-
-**Monitoring**
-
-What monitoring tools can be integrated?
-
-**Scalability**
-
-Auto-Scaling? Manual Scaling?
-
-**Availability**
-
-Load Balancer? Ingress? Availability Zones?
-
-**Security**
-
-Certificate Mgmt, RBAC
-
+  - [All use cases](usecases)
 
 ## Additional Elastic Cloud References
 
