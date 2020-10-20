@@ -1,14 +1,14 @@
 ## Elastic Cloud on Kubernetes (ECK)
 
-### [Quickstart Use Case 01](https://github.com/nycpivot/elastic-cloud-kubernetes/edit/main/usecases/quickstarts/use-case-01/)
+### [Quickstart Validation 01](quickstarts/validation-01/)
 
 	- Ensure ECK operator works across Kubernetes version upgrades on single instances of Elasticsearch and Kibana. FAIL
 
-### [Quickstart Use Case 02](https://github.com/nycpivot/elastic-cloud-kubernetes/edit/main/usecases/quickstarts/use-case-02/)
+### [Quickstart Validation 02](quickstarts/validation-02/)
 
 	- Ensure ECK operator works across Kubernetes version upgrades on multiple instances of Elasticsearch and Kibana. FAIL
 
-### [Quickstart Use Case 03](https://github.com/nycpivot/elastic-cloud-kubernetes/edit/main/usecases/quickstarts/use-case-03/)
+### [Quickstart Validation 03](quickstarts/validation-03/)
 
 	- Ensure ECK operator works across ECK version upgrades.
 
