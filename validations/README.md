@@ -16,7 +16,13 @@
 
 **Backups**
 
-How are backups performed? What tools are supported?
+How are backups/snapshots performed? What tools are supported? Velero?
+
+[https://discuss.elastic.co/t/how-to-backup-restore/194541](https://discuss.elastic.co/t/how-to-backup-restore/194541)
+
+[https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-snapshots.html](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-snapshots.html)
+
+[https://github.com/elastic/cloud-on-k8s/issues/2792](https://github.com/elastic/cloud-on-k8s/issues/2792)
 
 **Patching**
 
