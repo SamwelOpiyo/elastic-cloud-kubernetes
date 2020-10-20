@@ -1,8 +1,4 @@
-## Quickstarts
-
-This use case is based on the [quickstart tutorials](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-quickstart.html) hosted by Elasticsearch.
-
-### Use Case #1
+## Validation 01
 
   - **Description**
     - Ensure ECK operator works across Kubernetes version upgrades on single instances of Elasticsearch and Kibana.
@@ -82,3 +78,9 @@ kubectl delete pv elasticsearch-data
 kubectl delete sc default
 kubectl delete ns elastic-system
 </pre>
+
+## References
+
+## Quickstarts
+
+The yaml files used to create the ECK components were taken from the [quickstart tutorials](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-quickstart.html) hosted by Elasticsearch.
