@@ -67,7 +67,7 @@ tkg upgrade cluster use-case-01 --kubernetes-version v1.18.6
 	- The Kibana pod was restarted before the Elasticsearch pod.
 	- The Elasticsearch pod restarted successfully.
 	- The Kibana pod started, but a readinessProbe continually returns errors (see [use-case-log-01-1.txt](use-case-log-01-1.txt)).
-	
+
 	- In order to understand this behavior, a new cluster was created.
 	- The Kibana pod would not even attempt to install if an Elasticsearch instance was not already running (see [use-case-log-01-2.txt](use-case-log-01-2.txt).
 
