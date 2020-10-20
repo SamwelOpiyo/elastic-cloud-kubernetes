@@ -18,10 +18,6 @@
 
 How are backups performed? What tools are supported?
 
-**Upgrades**
-
-Does the ECK operator support zero-downtime upgrades, canary deployments, etc..?
-
 **Patching**
 
 **Performance & Tuning**
