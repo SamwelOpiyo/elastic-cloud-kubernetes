@@ -6,6 +6,10 @@
 
 ### [Quickstart Use Case 02](https://github.com/nycpivot/elastic-cloud-kubernetes/edit/main/usecases/quickstarts/use-case-02/)
 
+	- Ensure ECK operator works across Kubernetes version upgrades on multiple instances of Elasticsearch and Kibana. FAIL
+
+### [Quickstart Use Case 03](https://github.com/nycpivot/elastic-cloud-kubernetes/edit/main/usecases/quickstarts/use-case-03/)
+
 	- Ensure ECK operator works across ECK version upgrades.
 
 
