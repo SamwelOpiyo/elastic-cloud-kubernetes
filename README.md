@@ -41,9 +41,9 @@ With Elastic Cloud on Kubernetes you can streamline all those critical operation
 
   - The ECK operator uses dynamically provisioned volumes.
 
-## Operations Use Cases
+## Validations
 
-  - [All use cases](usecases)
+  - [All validations](validations)
 
 ## Additional Elastic Cloud References
 
