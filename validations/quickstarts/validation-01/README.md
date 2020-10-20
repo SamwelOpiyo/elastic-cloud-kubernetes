@@ -35,14 +35,14 @@ kubectl config use-context use-case-01-admin@use-case-01
 </pre>
     
 <pre>
-kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/common/storage.yaml
-kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/common/pv.yaml
+kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/validations/quickstarts/validation-01/storage.yaml
+kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/validations/quickstarts/validation-01/pv.yaml
 </pre>
     
 <pre>
-kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/all-in-one.yaml
-kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/elasticsearch.yaml
-kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/kibana.yaml
+kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/operator/all-in-one.yaml
+kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/validations/quickstarts/validation-01/elasticsearch.yaml
+kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/validations/quickstarts/validation-01/kibana.yaml
 
 kubectl get elasticsearch
 kubectl get kibana
