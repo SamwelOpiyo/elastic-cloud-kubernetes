@@ -2,11 +2,11 @@
 
 ### [Quickstart Validation 01](quickstarts/validation-01/)
 
-	- Ensure ECK operator works across Kubernetes version upgrades on single instances of Elasticsearch and Kibana. FAIL
+	- Ensure ECK operator works across Kubernetes version upgrades on **single instances** of Elasticsearch and Kibana. FAIL
 
 ### [Quickstart Validation 02](quickstarts/validation-02/)
 
-	- Ensure ECK operator works across Kubernetes version upgrades on multiple instances of Elasticsearch and Kibana. FAIL
+	- Ensure ECK operator works across Kubernetes version upgrades on **multiple instances** of Elasticsearch and Kibana. FAIL
 
 ### [Quickstart Validation 03](quickstarts/validation-03/)
 
