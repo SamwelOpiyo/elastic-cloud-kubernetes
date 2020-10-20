@@ -5,7 +5,7 @@ This use case is based on the [quickstart tutorials](https://www.elastic.co/guid
 ### Use Case #1
 
   - **Description**
-    - Ensure ECK operator works across Kubernetes version upgrades.
+    - Ensure ECK operator works across Kubernetes version upgrades on single instances of Elasticsearch and Kibana.
 
   - **Precondition**
     - TKG Production Cluster v1.1.3
@@ -13,10 +13,13 @@ This use case is based on the [quickstart tutorials](https://www.elastic.co/guid
     - ECK 1.2.1 operator
 
 Execute each of the following steps manually, or execute them all by running the [script](script1.sh).
-    <pre>
+    
+	<pre>
     tkg create cluster use-case-01 --kubernetes-version=1.17.9 --plan=prod
     tkg get credentials use-case-01
-    
+	</pre>
+	
+	<pre>
     kubectl config use-context use-case-01-admin@use-case-01
     </pre>
     
@@ -33,11 +36,12 @@ Execute each of the following steps manually, or execute them all by running the
     kubectl apply -f https://raw.githubusercontent.com/nycpivot/elastic-cloud-kubernetes/main/artifacts/kibana.yaml
     
     kubectl get elasticsearch
+	kubectl get kibana
     </pre>
     
   - **Action**
-    - Deploy Elasticsearch pod, spec.nodeSets.count: 1
-    - Deploy Kibana pod, spec.count: 1
+    - Deploy Elasticsearch pod
+    - Deploy Kibana pod
     - Upgrade cluster to Kubernetes 1.18.6
     - Observe Elasticsearch pod
     - Observe Kibaba pod
@@ -47,8 +51,8 @@ Execute each of the following steps manually, or execute them all by running the
     </pre>
     
   - **Postcondition**
-    - Existing pod deployments continue running without disruption.
-	- New pods are deployed with new Kubernetes version.
+    - Existing elasticsearch and kibana deployments continue running without disruption.
+	- New nodes and pods are restarted with new Kubernetes version.
 	
 ## Outcome
 
