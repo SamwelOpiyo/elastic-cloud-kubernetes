@@ -24,6 +24,8 @@ How are backups/snapshots performed? What tools are supported? Velero?
 
 [https://github.com/elastic/cloud-on-k8s/issues/2792](https://github.com/elastic/cloud-on-k8s/issues/2792)
 
+[https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-snapshots.html](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-snapshots.html)
+
 **Disaster Recovery**
 
 [https://www.google.com/search?q=elastic+cloud+for+kubernetes+disaster+recovery&rlz=1C1CHBF_enUS795US795&oq=elastic+cloud+for+kubernetes+disaster+recovery&aqs=chrome..69i57j33i160.12173j0j7&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=elastic+cloud+for+kubernetes+disaster+recovery&rlz=1C1CHBF_enUS795US795&oq=elastic+cloud+for+kubernetes+disaster+recovery&aqs=chrome..69i57j33i160.12173j0j7&sourceid=chrome&ie=UTF-8)
