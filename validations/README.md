@@ -24,21 +24,41 @@ How are backups/snapshots performed? What tools are supported? Velero?
 
 [https://github.com/elastic/cloud-on-k8s/issues/2792](https://github.com/elastic/cloud-on-k8s/issues/2792)
 
-**Patching**
+**Disaster Recovery**
+
+[https://www.google.com/search?q=elastic+cloud+for+kubernetes+disaster+recovery&rlz=1C1CHBF_enUS795US795&oq=elastic+cloud+for+kubernetes+disaster+recovery&aqs=chrome..69i57j33i160.12173j0j7&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=elastic+cloud+for+kubernetes+disaster+recovery&rlz=1C1CHBF_enUS795US795&oq=elastic+cloud+for+kubernetes+disaster+recovery&aqs=chrome..69i57j33i160.12173j0j7&sourceid=chrome&ie=UTF-8)
+
+**Upgrades/Patching**
+
+[https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-upgrading-eck.html](https://www.elastic.co/guide/en/cloud-on-k8s/current/k8s-upgrading-eck.html)
+
+[https://www.google.com/search?q=elastic+cloud+for+kubernetes+patching&rlz=1C1CHBF_enUS795US795&oq=elastic+cloud+for+kubernetes+patching&aqs=chrome..69i57.7650j0j7&sourceid=chrome&ie=UTF-8](https://www.google.com/search?q=elastic+cloud+for+kubernetes+patching&rlz=1C1CHBF_enUS795US795&oq=elastic+cloud+for+kubernetes+patching&aqs=chrome..69i57.7650j0j7&sourceid=chrome&ie=UTF-8)
 
 **Performance & Tuning**
 
 **Monitoring**
 
-What monitoring tools can be integrated?
+[https://www.elastic.co/blog/elastic-stack-monitoring-with-elastic-cloud-on-kubernetes](https://www.elastic.co/blog/elastic-stack-monitoring-with-elastic-cloud-on-kubernetes)
+
+What third-party monitoring tools can be integrated?
+
+**Logging**
+
+Using fluentd in following link.
+
+[https://blog.kubernauts.io/simple-logging-with-eck-and-fluentd-13824ad65aaf](https://blog.kubernauts.io/simple-logging-with-eck-and-fluentd-13824ad65aaf)
 
 **Scalability**
 
 Auto-Scaling? Manual Scaling?
 
+[https://www.elastic.co/blog/getting-started-with-elastic-cloud-on-kubernetes-deployment](https://www.elastic.co/blog/getting-started-with-elastic-cloud-on-kubernetes-deployment)
+
 **Availability**
 
 Load Balancer? Ingress? Availability Zones?
+
+[https://www.elastic.co/blog/high-availability-elasticsearch-on-kubernetes-with-eck-and-gke](https://www.elastic.co/blog/high-availability-elasticsearch-on-kubernetes-with-eck-and-gke)
 
 **Security**
 
