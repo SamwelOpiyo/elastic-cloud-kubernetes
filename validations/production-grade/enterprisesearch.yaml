@@ -1,0 +1,13 @@
+apiVersion: enterprisesearch.k8s.elastic.co/v1beta1
+kind: EnterpriseSearch
+metadata:
+  name: production-grade
+  namespace: production-grade
+spec:
+  version: 7.9.2
+  count: 1
+  elasticsearchRef:
+    name: production-grade
+    namespace: production-grade
+  config:
+    ent_search.external_url: https://localhost:3002
