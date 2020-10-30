@@ -56,7 +56,7 @@ spec:
         resources:
           requests:
             storage: 5Gi
-        storageClassName: default
+        storageClassName: sc
     podTemplate:
         spec:
           initContainers:
@@ -101,8 +101,6 @@ spec:
               value: "10"
             - name: PRE_STOP_ADDITIONAL_WAIT_SECONDS
               value: "5"
-            - name: ES_JAVA_OPTS
-              value: "-Xms2g -Xmx2g"
 
   # Dedicated coordinator nodes
   - name: coordinator
@@ -128,8 +126,6 @@ spec:
               value: "10"
             - name: PRE_STOP_ADDITIONAL_WAIT_SECONDS
               value: "5"
-            - name: ES_JAVA_OPTS
-              value: "-Xms2g -Xmx2g"
 
   # Dedicated machine learning nodes
   - name: ml
