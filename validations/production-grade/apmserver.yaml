@@ -14,15 +14,12 @@ spec:
     name: "production-grade"
     namespace: production-grade
   config:
-    output.console:
-      pretty: true
-    name: elastic-apm
     apm-server.jaeger.grpc.enabled: true
     apm-server.jaeger.grpc.host: "0.0.0.0:14250"
   http:
     service:
       spec:
-        # type: LoadBalancer
+        type: Nodeport
         ports:
           - name: http
             port: 8200
