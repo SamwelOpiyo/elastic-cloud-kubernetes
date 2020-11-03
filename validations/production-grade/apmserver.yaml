@@ -5,7 +5,11 @@ metadata:
   namespace: production-grade
 spec:
   version: 7.9.3
-  count: 1
+  count: 3
+  updateStrategy:
+    changeBudget:
+      maxSurge: 2
+      maxUnavailable: 1
   elasticsearchRef:
     name: "production-grade"
     namespace: production-grade
