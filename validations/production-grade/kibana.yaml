@@ -4,7 +4,7 @@ metadata:
   name: production-grade
   namespace: production-grade
 spec:
-  version: 7.9.2
+  version: 7.9.3
   count: 1
   elasticsearchRef:
     name: production-grade
@@ -24,9 +24,7 @@ spec:
             memory: 2Gi
             cpu: 2
 
-  #http:
-  #  service:
-  #    spec:
-  #      type: LoadBalancer
-  # this shows how to customize the Kibana pod
-  # with labels and resource limits
+  http:
+    service:
+      spec:
+        type: NodePort

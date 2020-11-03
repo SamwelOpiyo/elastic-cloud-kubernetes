@@ -4,7 +4,11 @@ metadata:
   name: production-grade
   namespace: production-grade
 spec:
-  version: 7.9.2
+  version: 7.9.3
+  updateStrategy:
+    changeBudget:
+      maxSurge: 2
+      maxUnavailable: 1
   nodeSets:
   # Dedicated master nodes
   - name: master

@@ -5,7 +5,7 @@ metadata:
   namespace: production-grade
 spec:
   type: metricbeat
-  version: 7.9.2
+  version: 7.9.3
   elasticsearchRef:
     name: production-grade
     namespace: production-grade
@@ -185,7 +185,7 @@ metadata:
   namespace: production-grade
 spec:
   type: filebeat
-  version: 7.9.2
+  version: 7.9.3
   elasticsearchRef:
     name: production-grade
     namespace: production-grade
@@ -292,7 +292,7 @@ metadata:
   namespace: production-grade
 spec:
   type: auditbeat
-  version: 7.9.2
+  version: 7.9.3
   elasticsearchRef:
     name: production-grade
     namespace: production-grade
@@ -415,7 +415,7 @@ metadata:
   namespace: production-grade
 spec:
   type: journalbeat
-  version: 7.9.2
+  version: 7.9.3
   elasticsearchRef:
     name: production-grade
     namespace: production-grade
@@ -471,7 +471,7 @@ metadata:
   namespace: production-grade
 spec:
   type: packetbeat
-  version: 7.9.2
+  version: 7.9.3
   elasticsearchRef:
     name: production-grade
     namespace: production-grade
@@ -522,7 +522,7 @@ metadata:
   namespace: production-grade
 spec:
   type: heartbeat
-  version: 7.9.2
+  version: 7.9.3
   elasticsearchRef:
     name: production-grade
     namespace: production-grade
