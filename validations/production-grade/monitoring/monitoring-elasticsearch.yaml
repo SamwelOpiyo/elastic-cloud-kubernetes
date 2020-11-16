@@ -1,0 +1,12 @@
+apiVersion: elasticsearch.k8s.elastic.co/v1
+kind: Elasticsearch
+metadata:
+  name: elasticsearch-monitoring
+  namespace: production-grade
+spec:
+  version: 7.9.3
+  nodeSets:
+  - name: default
+    count: 3
+    config:
+      node.store.allow_mmap: false

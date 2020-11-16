@@ -9,10 +9,15 @@ spec:
   elasticsearchRef:
     name: production-grade
     namespace: production-grade
+  config:
+    xpack.monitoring.kibana.collection.enabled: false
+    xpack.monitoring.collection.enabled: true
   podTemplate:
     metadata:
       labels:
-        foo: bar
+        stack-monitoring.elastic.co/type: kb # to allow autodiscover by metricbeat
+      annotations:
+        co.elastic.logs/enabled: "true"
     spec:
       containers:
       - name: kibana

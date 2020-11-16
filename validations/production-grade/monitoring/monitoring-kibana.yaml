@@ -1,0 +1,19 @@
+apiVersion: kibana.k8s.elastic.co/v1
+kind: Kibana
+metadata:
+  name: kibana-monitoring
+  namespace: production-grade
+spec:
+  version: 7.9.3
+  count: 1
+  elasticsearchRef:
+    name: elasticsearch-monitoring
+    namespace: production-grade
+  config:
+    # enable the UI to reflect container level CPU usage, only displays info if CPU limits are set on the monitored ES cluster
+    # https://www.elastic.co/guide/en/kibana/current/monitoring-settings-kb.html
+    xpack.monitoring.ui.container.elasticsearch.enabled: true
+  http:
+    service:
+      spec:
+        type: NodePort

@@ -1,0 +1,40 @@
+apiVersion: beat.k8s.elastic.co/v1beta1
+kind: Beat
+metadata:
+  name: heartbeat
+  namespace: production-grade
+spec:
+  type: heartbeat
+  version: 7.9.3
+  elasticsearchRef:
+    name: production-grade
+    namespace: production-grade
+  config:
+    http.enabled: true
+    http.port: 5066
+    http.host: 0.0.0.0
+    monitoring.enabled: false
+    heartbeat.monitors:
+    - type: tcp
+      schedule: '@every 5s'
+      hosts: ["production-grade-es-http.production-grade.svc:9200"]
+    - type: tcp
+      schedule: '@every 5s'
+      hosts: ["production-grade-kb-http.production-grade.svc:5601"]
+  deployment:
+    replicas: 1
+    podTemplate:
+      metadata:
+        labels:
+          stack-monitoring.elastic.co/type: beat
+        annotations:
+          co.elastic.logs/enabled: "true"
+      spec:
+        containers:
+        - name: heartbeat
+          ports:
+            - containerPort: 5066
+              name: monitoring
+              protocol: TCP
+        securityContext:
+          runAsUser: 0
