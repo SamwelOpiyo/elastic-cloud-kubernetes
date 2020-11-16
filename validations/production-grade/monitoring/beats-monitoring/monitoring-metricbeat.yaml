@@ -92,7 +92,7 @@ spec:
             valueFrom:
               secretKeyRef:
                 key: elastic
-                name: elasticsearch-es-elastic-user
+                name: production-grade-es-elastic-user
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
