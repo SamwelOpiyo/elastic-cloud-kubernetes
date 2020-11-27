@@ -1,5 +1,15 @@
 # Monitoring Cluster for Production Grade ECK Cluster
 
+The following directory contains artifacts that can be used to create a monitoring ECK cluster for the production ECK cluster.
+
+## Set Up
+
+Change directory:
+
+```
+cd ./monitoring-cluster
+```
+
 To setup the monitoring elasticsearch cluster 3 nodes execute:
 
 ```

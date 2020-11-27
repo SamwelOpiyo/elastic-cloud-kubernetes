@@ -2,7 +2,7 @@
 
 The following directory contains artifacts that can be used to create a production level ECK cluster.
 
-## Setup
+## Set Up
 
 Ensure you have kubectl cli installed and authenticated with the cluster that you will use for ECK.
 

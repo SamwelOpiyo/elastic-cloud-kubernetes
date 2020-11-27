@@ -1,6 +1,16 @@
 # Beats on ECK Operator.
 
+The following directory contains artifacts that can be used to create beats on top of an ECK operator.
+
 https://www.elastic.co/beats/
+
+## Set Up
+
+Change directory:
+
+```
+cd ./beats
+```
 
 To deploy Metricbeat that monitors the usage of the following resources:
  * Host: CPU, memory, network, filesystem.
